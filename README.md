@@ -1,6 +1,6 @@
 # Trial Task — PR Review Agent
 
-- **Time:** 2 hours. Hard cap.
+- **Time:** 6 hrs cap. Stop at the cap.
 - **Stack:** Python or TypeScript/JavaScript — your choice. Any agent framework. Any LLM.
 - **Deliverable:** GitHub repo + link to a real PR where your agent ran end-to-end.
 - **Using AI to do the task?** OK, actually preferred and encouraged. BUT you will defend architecture decisions live at the interview. Not variable names. Architecture and design intent. Make sure you understand what you ship.
@@ -46,7 +46,7 @@ We will run your agent against a PR in our test repo and watch GitHub live to se
 1. **Real GitHub writes.** Actual review comments. Actual reviewer assignments. Actual approve action when warranted. No stdout simulation.
 2. **Handle large PRs.** PRs in our test set may go up to **5,000 additions / 5,000 deletions**. Don't choke on big diffs.
 3. **Mode flag works.** `--mode conservative` and `--mode aggressive` produce meaningfully different decisions.
-4. **Clear LLM observability.** For every LLM call, we must be able to see: the prompt sent, the model used, the output received, token usage, latency. Use Langfuse, LangSmith, structured stdout, or whatever you prefer — but we need to *see* what the model saw and what it returned. This matters.
+4. **Clear LLM observability.** For every LLM call, we must be able to see: the prompt sent, the model used, the output received, token usage, latency. Use whatever you prefer — but we need to *see* what the model saw and what it returned. This matters.
 
 ---
 
