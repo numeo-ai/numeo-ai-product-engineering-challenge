@@ -3,7 +3,7 @@
 - **Time:** 6 hrs cap. Stop at the cap.
 - **Stack:** Python or TypeScript/JavaScript — your choice. Any agent framework. Any LLM.
 - **Deliverable:** GitHub repo + link to a real PR where your agent ran end-to-end.
-- **Using AI to do the task?** OK, actually preferred and encouraged. BUT you will defend architecture decisions live at the interview. Not variable names. Architecture and design intent. Make sure you understand what you ship.
+- **Using AI to do the task? (e.g. Claude Code, Cursor...)** OK, actually preferred and encouraged. BUT you will defend architecture decisions live at the interview. Not variable names. Architecture and design intent. Make sure you understand what you ship.
 
 ---
 
